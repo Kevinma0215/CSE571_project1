@@ -1,0 +1,3 @@
+huggingface-cli login
+
+hf upload CLM0215/pick_cube pick_cube_/ --repo-type=dataset 

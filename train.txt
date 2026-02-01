@@ -1,0 +1,8 @@
+lerobot-train \
+--dataset.repo_id=CLM0215/pick_cube_ep5 \
+--policy.type=act \
+--output_dir=outputs/train/act_so101_test/ep5 \
+--job_name=act_so101_test \
+--policy.device=cuda \
+--wandb.enable=true \
+--policy.repo_id=CLM0215/my_policy_ep5

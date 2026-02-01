@@ -1,0 +1,6 @@
+.env
+lib/
+datasets/
+outputs/
+*.sh
+
