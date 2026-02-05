@@ -2,5 +2,5 @@ lerobot-replay \
 --robot.type=so101_follower \
 --robot.port=/dev/ttyACM0 \
 --robot.id=my_follower \
---dataset.repo_id=CLM0215/pick_cube_v1 \
+--dataset.repo_id=CLM0215/pick_cube_ep5 \
 --dataset.episode=1 
