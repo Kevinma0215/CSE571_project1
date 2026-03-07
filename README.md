@@ -1,5 +1,8 @@
 # so101 on Lerobot setup & application cammand
-## Setup
+## Env Setup
+https://huggingface.co/docs/lerobot/installation
+
+## Hardware Setup
 ```bash
 lerobot-find-port
 ```
@@ -59,10 +62,18 @@ lerobot-record \
 ```
 
 ## Upload to Huggingface
-```bash
-hf upload CLM0215/pick_cube pick_cube_/ --repo-type=dataset 
-```
-In case:
+First time login:
 ```bash
 huggingface-cli login
 ```
+Upload:
+```bash
+hf upload {repo_id}/{dataset_name_on_repo} {dataset_location} --repo-type=dataset
+```
+E.g.:
+```bash
+hf upload CLM0215/pick_cube_test2 \
+$HOME/.cache/huggingface/lerobot/CLM0215/pick_cube_test2 \
+--repo-type=dataset
+```
+
